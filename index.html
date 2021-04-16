@@ -20,20 +20,21 @@
 
     body {
       margin: 40px auto;
-      max-width: 650px;
+      max-width: 800px;
       line-height: 1.6;
-      font-size: 18px;
+      font-size: 16px;
       color: #272730;
       padding: 0 10px;
       background-color: #f8f8f8;
       font-family: 'Montserrat', sans-serif;
+      text-align: justify;
     }
 
-    h1, h2, h3, h4, h5 {
+    h1, h2, h3, h4 {
       line-height: 1.2;
     }
 
-    h2, h3, h4, h5 {
+    h2, h3, h4 {
       margin-bottom: 0;
     }
 
@@ -41,8 +42,16 @@
       text-align: center;
     }
 
-    h4 {
+    h2 {
+      margin-block-start: 1.5em;
+    }
+
+    h3 {
       margin-block-start: 0.6em;
+    }
+
+    h4 {
+      margin-block-start: 0;
     }
 
     ul, p {
@@ -54,15 +63,15 @@
       text-decoration: none;
     }
 
-    .light {
-      opacity: 0.8;
+    h4, .light {
+      color: #666;
     }
-
   </style>
 </head>
 <body>
   <h1>Pedro Javier Nicolás Zamora</h1>
 
+  <h2>Contacto</h2>
   <a href="mailto:pedrojavier.nz@gmail.com">
     pedrojavier.nz@gmail.com
   </a>
@@ -78,32 +87,24 @@
     Soy un desarrollador software apasionado por los concursos de programación y el bajo eléctrico. Busco formar parte de un buen equipo que me haga aprender y crecer como profesional a la vez que me permita dartodo de mí.
   </p>
 
-  <!--
-  <h2>Habilidades</h2>
-    <p>
-      <b>Experto:</b> JavaScript • Node.js • React • Redux • HTML5 • CSS3 • Firebase • Java • Git • Bash • Linux
-    </p>
-  <p>
-    <b>Familiarizado:</b> React Native • Clojure • MySQL • C • KirbyCMS • LaTeX • Python
-  </p>
-  -->
-
   <h2>Experiencia</h2>
-  <h4>Industrial Data Sheets | <span class="light">Freelancer</span></h4>
+  <h3>Industrial Data Sheets | <span class="light">Freelancer</span></h3>
   <ul>
     <li>
       Aplicación web que permite gestionar fichas técnicas de maquinaria industrial, almacenadas en una base de datos SQL. Proyecto desarrollado para una empresa murciana.
     </li>
   </ul>
 
-  <h4>Metalenlace | <span class="light">Desarrollador fullstack</span></h4>
+  <h3>Metalenlace | <span class="light">Desarrollador fullstack</span></h3>
+  <h4>2017 - 2018 | Murcia, España</h4>
   <ul>
     <li>
       Programador full-stack en diferentes equipos para proyectos del Servicio Murciano de Salud y Cajamar.
     </li>
   </ul>
 
-  <h4>Gloam | <span class="light">Co-fundador y desarrollador software</span></h4>
+  <h3>Gloam | <span class="light">Co-fundador y desarrollador software</span></h3>
+  <h4>2018 – 2020 | Murcia, España</h4>
   <ul>
     <li>
       Formación de un pequeño equipo ágil para el desarrollo de un sistema de promoción digital de locales en Murcia.
@@ -114,6 +115,44 @@
     <li>
       Desarrollo de sistema de creación y modificación de promociones por parte de las empresas mediante una aplicación web, programada en React y apoyándose en Firebase como servicio de autentificación, base de datos y hosting.
     </li>
+  </ul>
+
+  <h3>Zapp Studio | <span class="light">Desarrollador fullstack</span></h3>
+  <h4>2020 – 2021 | Murcia, España</h4>
+  <ul>
+    <li>
+      Desarrollo de varias aplicaciones principalmente usando Vue.
+    </li>
+  </ul>
+
+  <h2>Algunos proyectos paralelos</h2>
+
+  <h3>Roomie Market</h3>
+  <p>
+    Aplicación móvil que gestiona la asignación de tareas que aumentan su prioridad con el tiempo en un grupo de personas. Está basada en teoría de mercados, lo que fomenta el trabajo en un equipo. Fue desarrollada para repartir las tareas domésticas entre compañeros de piso.
+  </p>
+
+  <h3>uNotifier</h3>
+  <p>
+    Bot de <i>Telegram</i> que permite, mediante una sencilla API, enviar mensajes a cualquier persona que haya generado y compartido un token. Esto permite implementar una librería de notificaciones a usuarios gratuita y en pocos minutos, aprovechando la infraestructura de esta aplicación.
+  </p>
+
+  <h3>UM Scheduler</h3>
+  <p>
+    Aplicación web para ayudar a los alumnos de la Universidad de Murcia a elegir sus asignaturas a principio del año. Consiste en un web scraper que crea una base de datos con la asignaturas, y de manera visual los alumnos pueden elegir las que quieran de diferentes años y comprobar si hay incompatibilidades con el horario.
+  </p>
+
+  <h3>Game Jams</h3>
+  <p>
+    He participado como programador en varias Game Jams, eventos organizados por internet que proponen el reto de crear un pequeño videojuego en un tiempo limitado, normalmente 3 días. Acompañado por diseñadores de juego e ilustradores, he programado estos juegos en Unity, Game Maker, e incluso en un pequeño motor de juegos que cree para JavaScript.
+  </p>
+
+  <h2>Logros y formación</h2>
+  <ul>
+    <li>Nivel B2 en inglés.</li>
+    <li>Alumno interno UM, trabajando en un proyecto de memoria transaccional en CPUs.</li>
+    <li>Curso en márketing digital impartido por la formación Google Actívate.</li>
+    <li>Ganador hackathon CodeCamp 2017 organizado por la Universidad de Murcia.</li>
   </ul>
 </body>
 </html>
