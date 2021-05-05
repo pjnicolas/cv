@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,11 +39,16 @@
       font-family: 'Lato', sans-serif;
     }
 
-    h1, h2, h3, h4 {
+    h1,
+    h2,
+    h3,
+    h4 {
       line-height: 1.2;
     }
 
-    h2, h3, h4 {
+    h2,
+    h3,
+    h4 {
       margin-bottom: 0;
     }
 
@@ -69,7 +75,8 @@
       margin-block-start: 0;
     }
 
-    ul, p {
+    ul,
+    p {
       margin-block-start: 0.3em;
       font-weight: 300;
     }
@@ -78,7 +85,8 @@
       padding-inline-start: 25px;
     }
 
-    p, li {
+    p,
+    li {
       text-align: justify;
     }
 
@@ -92,19 +100,65 @@
       margin: 0 0 8px 0;
     }
 
-    h4, .job {
+    h4,
+    .job {
       font-size: 0.8em;
       color: #777;
       text-transform: uppercase;
     }
+
+    /* tooltips */
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      position: absolute;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      z-index: 1;
+      opacity: 0;
+      transition: opacity .3s;
+      bottom: 115%;
+      left: 50%;
+      margin-left: -60px;
+    }
+
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
   </style>
 </head>
+
 <body>
   <h1><span style="font-weight: 300;">Pedro Javier</span> Nicolás Zamora</h1>
 
   <h2>About me</h2>
   <p>
-    I'm a software developer, passionate about coding contests and electric bass.
+    I'm a full-stack software developer currently living in Spain, born in
+    <span class="tooltip">1995<span id="age" class="tooltiptext"></span></span>. I enjoy self-taught learning, working
+    in small teams, and playing the electric bass.
   </p>
 
   <!-- <h2>Contacto</h2> -->
@@ -130,7 +184,8 @@
   <h3>Industrial Data Sheets | <span class="job">Freelancer</span></h3>
   <ul>
     <li>
-      Web app that allows you to manage data sheets about industrial machinery, stored in a SQL database. Project developed for a Spanish company.
+      Webapp that allows you to manage data sheets about industrial machinery, stored in a SQL database. Project
+      developed for a Spanish company.
     </li>
   </ul>
 
@@ -138,7 +193,7 @@
   <h4>2017 - 2018 | Murcia, Spain</h4>
   <ul>
     <li>
-      Full-stack programmer in different projects for a Spanish Health Service and Cajamar.
+      Full-stack Java developer in different projects for multiple Spanish companies.
     </li>
   </ul>
 
@@ -146,13 +201,10 @@
   <h4>2018 – 2020 | Murcia, Spain</h4>
   <ul>
     <li>
-      Foundation of a small agile team for the development of a digital promotion system for pubs in Murcia.
+      Co-founder in a small agile team developing a digital promotion system for pubs in my local city.
     </li>
     <li>
-      Development of a mobile app using React native.
-    </li>
-    <li>
-      Development of a system for handling promotions for business using a web application, written in React and Firebase for authentication, database, and hosting.
+      Developer of apps using in React, React Native, and Firebase.
     </li>
   </ul>
 
@@ -160,7 +212,7 @@
   <h4>2020 – 2021 | Murcia, Spain</h4>
   <ul>
     <li>
-      Development of multiple applications using Vue and Nuxt.
+      Developer of multiple applications using Vue and Nuxt.
     </li>
   </ul>
 
@@ -168,36 +220,59 @@
 
   <h3>Roomie Market</h3>
   <p>
-    A mobile app that handles the assignation of tasks which increases their priority over time in a group of people. It's based on market theory, which encourages teamwork. It was developed to distribute household chores among roommates.
+    I have developed an app that handles the assignment of tasks that increase in priority over time in a group of
+    people. It's based on market theory, which encourages teamwork. It was developed to distribute household chores
+    among roommates.
   </p>
 
   <h3>uNotifier</h3>
   <p>
-    <i>Telegram</i> bot that allows, via a simple REST API, to send messages to any person who had generated and shared a token. This allows you to implement a library of notifications to users free and in a few minutes, taking advantage of the infrastructure of this application.
-  </p>
-
-  <h3>UM Scheduler</h3>
-  <p>
-    Web application to help students from the University of Murcia to choose their subjects at the beginning of the year. It consists of a web scrapper who creates a database with the different subjects, and users can visually choose which subjects they want of different years and check if is there an incompatibility with their course schedule.
+    <i>Telegram</i> bot that allows you, though a simple REST API, to send messages to any user who had generated and
+    shared a token. This allows you to implement a library of notifications to users for free and in a few minutes,
+    taking
+    advantage of the infrastructure of this application.
   </p>
 
   <h3>Game Jams</h3>
   <p>
-    I've participated as a programmer in different Game Jams, events arranged over the internet aimed to create a small videogame in a reduced amount of time, usually 3 days. Along with game designers and illustrators, I've programmed these games in Unity, Game Maker, and even a small game engine I developed myself in JavaScript.
+    I have participated as a programmer in different Game Jams, events arranged on the internet focused on create a
+    small videogame in a reduced amount of time, usually 3 days. Along with game designers and illustrators, I've
+    programmed these games in Unity, Game Maker, and even a small game engine I developed myself in JavaScript.
   </p>
 
   <h3>Lyricsfy <a href="https://lyricsfy.pjnicolas.com" target="_blank">[link]</a></h3>
   <p>
-    Simple unofficial Spotify web application for reading the lyrics of your current playing song in your browser.
+    Simple unofficial Spotify web application for reading the lyrics of song you are currently playing.
   </p>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>My main technologies are JavaScript, Node, Vue, Nuxt, React, Redux, HTML5, CSS3, Firebase, Java, Git, Bash,
+      Linux.</li>
+    <li>I'm also familiar with React Native, SQL, Python, LaTeX, C, Clojure.</li>
+  </ul>
 
   <h2>Achivements and courses</h2>
   <ul>
-    <li>Native Spanish.</li>
-    <li>B2 English.</li>
-    <li>University of Murcia internal student, working on a project about transactional memory.</li>
-    <li>Digital Marketing course imparted by Google Actívate.</li>
+    <li>Internal Student at the University of Murcia, working on a project about transactional memory.</li>
+    <li>Digital Marketing course given by Google Actívate.</li>
     <li>Winner of the CodeCamp 2017 hackathon organized by the University of Murcia.</li>
   </ul>
+
+  <br />
+  <br />
+  <br />
+
+  <script>
+    window.onload = function () {
+      const age = document.getElementById('age')
+      if (age) {
+        const diff = Date.now() - (new Date('1995-12-25')).getTime()
+        const myAgeInt = Math.floor(diff / (365.25 * 24 * 60 * 60 * 1000))
+        age.innerHTML = myAgeInt + ' years old'
+      }
+    }
+  </script>
 </body>
+
 </html>
