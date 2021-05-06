@@ -156,8 +156,7 @@
 
   <h2>About me</h2>
   <p>
-    I'm a full-stack software developer currently living in Spain, born in
-    <span class="tooltip">1995<span id="age" class="tooltiptext"></span></span>. I enjoy self-taught learning, working
+    I'm a full-stack software developer currently living in Spain. I enjoy self-taught learning, working
     in small teams, and playing the electric bass.
   </p>
 
@@ -181,11 +180,33 @@
   </div>
 
   <h2>Experience</h2>
-  <h3>Industrial Data Sheets | <span class="job">Freelancer</span></h3>
+  <h3>Zapp Studio | <span class="job">Fullstack developer</span></h3>
+  <h4>2020 – 2021 | Murcia, Spain</h4>
   <ul>
     <li>
-      Webapp that allows you to manage data sheets about industrial machinery, stored in a SQL database. Project
-      developed for a Spanish company.
+      Developer of multiple applications using Vue and Nuxt.
+    </li>
+    <li>
+      In charge of improving the company's current framework for developing webapps, dockerizing applications, and
+      automatizing processes.
+    </li>
+    <li>
+      Assistant backend developer for APIs written in PHP, and designing SQL databases.
+    </li>
+  </ul>
+
+  <h3>Gloam | <span class="job">Co-founder and software developer</span></h3>
+  <h4>2018 – 2020 | Murcia, Spain</h4>
+  <ul>
+    <li>
+      Co-founder in a small agile team developing a digital promotion system for pubs in Spain.
+    </li>
+    <li>
+      Developer of webapps using React, and mobile apps using React Native.
+    </li>
+    <li>
+      In charge of maintaining and designing the Firestore database, all of the project security, and developing the
+      serverless backend using Firebase.
     </li>
   </ul>
 
@@ -195,34 +216,27 @@
     <li>
       Full-stack Java developer in different projects for multiple Spanish companies.
     </li>
-  </ul>
-
-  <h3>Gloam | <span class="job">Co-founder and software developer</span></h3>
-  <h4>2018 – 2020 | Murcia, Spain</h4>
-  <ul>
     <li>
-      Co-founder in a small agile team developing a digital promotion system for pubs in my local city.
-    </li>
-    <li>
-      Developer of apps using in React, React Native, and Firebase.
+      Responsible of write and maintain the code of APIs and designing databases.
     </li>
   </ul>
 
-  <h3>Zapp Studio | <span class="job">Fullstack developer</span></h3>
-  <h4>2020 – 2021 | Murcia, Spain</h4>
+  <h3>Industrial Data Sheets | <span class="job">Freelance software developer</span></h3>
   <ul>
     <li>
-      Developer of multiple applications using Vue and Nuxt.
+      Webapp that allows you to manage data sheets about industrial machinery, stored in a MySQL database. Project
+      developed for a Spanish company. I have been responsible for designing and implementing the software.
     </li>
   </ul>
+
 
   <h2>Some side projects</h2>
 
-  <h3>Roomie Market</h3>
+  <h3>Versioncloud</h3>
   <p>
-    I have developed an app that handles the assignment of tasks that increase in priority over time in a group of
-    people. It's based on market theory, which encourages teamwork. It was developed to distribute household chores
-    among roommates.
+    I have built an application for sharing files with strict version control. I deployed both the SSR frontend and
+    the Node.js backend in Docker on AWS VPS instances, using nginx as a reverse proxy. I also used AWS S3 buckets for
+    storing the files.
   </p>
 
   <h3>uNotifier</h3>
@@ -240,19 +254,20 @@
     programmed these games in Unity, Game Maker, and even a small game engine I developed myself in JavaScript.
   </p>
 
-  <h3>Lyricsfy <a href="https://lyricsfy.pjnicolas.com" target="_blank">[link]</a></h3>
+  <h3>Lyricsfy <a href="https://lyricsfy.pjnicolas.com" target="_blank">[lyricsfy.pjnicolas.com]</a></h3>
   <p>
-    Simple unofficial Spotify web application for reading the lyrics of song you are currently playing.
+    Simple unofficial Spotify web application for reading the lyrics of the song you are currently playing.
   </p>
 
   <h2>Skills</h2>
   <ul>
-    <li>My main technologies are JavaScript, Node, Vue, Nuxt, React, Redux, HTML5, CSS3, Firebase, Java, Git, Bash,
-      Linux.</li>
-    <li>I'm also familiar with React Native, SQL, Python, LaTeX, C, Clojure.</li>
+    <li>JavaScript, Node.js, Java, Bash.</li>
+    <li>Vue, Nuxt, React, Redux, HTML5, CSS3.</li>
+    <li>Docker, Firebase, Git, Linux.</li>
   </ul>
+  <p>I'm also familiar with React Native, SQL, Python, LaTeX, C, Clojure.</p>
 
-  <h2>Achivements and courses</h2>
+  <h2>Achievements and courses</h2>
   <ul>
     <li>Internal Student at the University of Murcia, working on a project about transactional memory.</li>
     <li>Digital Marketing course given by Google Actívate.</li>
@@ -262,17 +277,6 @@
   <br />
   <br />
   <br />
-
-  <script>
-    window.onload = function () {
-      const age = document.getElementById('age')
-      if (age) {
-        const diff = Date.now() - (new Date('1995-12-25')).getTime()
-        const myAgeInt = Math.floor(diff / (365.25 * 24 * 60 * 60 * 1000))
-        age.innerHTML = myAgeInt + ' years old'
-      }
-    }
-  </script>
 </body>
 
 </html>
