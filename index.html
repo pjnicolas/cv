@@ -271,6 +271,27 @@
 
   <h2>Some side projects</h2>
 
+  <h3>
+    AIBelt
+    <!-- <a href="https://aibelt.pjnicolas.com" target="_blank">[demo]</a> -->
+  </h3>
+  <p>
+    Webapp that allows you to create and share small multifunctional tools created with artificial intelligence, thanks
+    to GPT and the OpenAI API. It is written in React + Typescript, using Next.js for server-side-rendering, and is
+    completely dockerized in both development and production.
+  </p>
+
+  <p>
+    It deploys automatically on every commit thanks to a CI in Github Actions, and is hosted on an AWS VPS using nginx
+    as a reverse proxy. Docker images are stored in the AWS ECR, and data in a PostgreSQL database.
+  </p>
+
+  <p>
+    Among other technologies present in the application is the use of TRPC for communication with the backend (which is
+    written in Node.js), React Query for cache management, Prisma.js for communication with the database, and
+    TailwindCSS for interface design. Authentication is done with JWTs and cookies, and emails are sent with AWS SES.
+  </p>
+
   <h3>uNotifier <a href="https://github.com/pjnicolas/unotifier" target="_blank">[code]</a></h3>
   <p>
     Simple <i>Telegram</i> bot that allows you, through a simple REST API, to send messages to any user who had
@@ -278,16 +299,7 @@
     minutes, taking advantage of the infrastructure of this application.
   </p>
   <p>
-    The project is a Node.js dockerized program with CI that deploys it automatically on every commit. It's hosted in an
-    AWS VPS instance using nginx as a reverse proxy. The docker images are stored in the AWS ECR, and the data is stored
-    in a PostgreSQL database.
-  </p>
-
-  <h3>Versioncloud</h3>
-  <p>
-    Web application for sharing files with strict version control. Its infrastructure is very similar to one of my other
-    projects, <i>Unotifier</i>, but this one also uses AWS S3 buckets for storing some files. The server-side-rendering
-    frontend code is written in Vue and is also dockerized.
+    It's written in Node.js and the deploy system is very similar to one of my other projects, <i>AIBelt</i>.
   </p>
 
 
@@ -300,14 +312,14 @@
 
   <h3>Lyricsfy</h3>
   <p>
-    Simple unofficial Spotify web application for reading the lyrics of the song you are currently playing.
+    Simple unofficial Spotify web application for reading the lyrics of the song you are currently playing in real time.
   </p>
 
   <h2>Skills</h2>
   <ul>
-    <li>JavaScript, Node.js, Java, Bash.</li>
-    <li>Vue, Nuxt, React, Redux, HTML5, CSS3.</li>
-    <li>Docker, Firebase, Git, Linux.</li>
+    <li>TypeScript, JavaScript, Node.js, Java, Bash.</li>
+    <li>React, Next.js, Vue, Nuxt, HTML5, CSS3, TailwindCSS.</li>
+    <li>Docker, Firebase, Git, Prisma, Linux.</li>
   </ul>
   <p>I'm also familiar with React Native, SQL, Python, LaTeX, C, Clojure.</p>
 

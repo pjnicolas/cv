@@ -271,7 +271,31 @@
   </ul>
 
 
-  <h2>Algunos proyectos paralelos</h2>
+  <h2>Algunos proyectos personales</h2>
+
+  <h3>
+    AIBelt
+    <!-- <a href="https://aibelt.pjnicolas.com" target="_blank">[demo]</a> -->
+  </h3>
+  <p>
+    Webapp que te permite crear y compartir pequeñas herramientas multifuncionales creadas con inteligencia artificial,
+    gracias a GPT y la API de OpenAI. Está escrita en React + Typescript, usando Next.js para el
+    server-side-rendering, y está completamente dockerizada tanto en desarrollo como en producción.
+  </p>
+
+  <p>
+    Se despliega automáticamente en cada commit gracias a una CI en Github Actions, y está alojada en un VPS
+    de la AWS usando nginx como un proxy inverso. Las imágenes de docker están almacenadas en la AWS ECR, y los datos
+    en una base de datos PostgreSQL.
+  </p>
+
+  <p>
+    Entre otras tecnologías presentes en la aplicación se encuentra el uso de TRPC para la comunicación con el backend
+    (que está escrito en Node.js), React Query para la gestión de la caché, Prisma.js para la comunicación con la base
+    de datos, y TailwindCSS para el diseño de la interfaz. La autenticación se realiza con JWTs y cookies, y los correos
+    electrónicos se envían con AWS SES.
+  </p>
+
 
   <h3>uNotifier <a href="https://github.com/pjnicolas/unotifier" target="_blank">[código]</a></h3>
   <p>
@@ -280,16 +304,8 @@
     gratis y en unos pocos minutos, sacando ventaja de la infraestructura de esta aplicación.
   </p>
   <p>
-    El projecto consta de un programa Node.js dockerizado con una CI que lo despliega automáticamente en cada commit.
-    Está alojado en una instancia VPS de la AWS usando nginx como un proxy inverso. Las imágenes de docker están
-    almacenadas en la AWS ECR, y los datos en una base de datos PostgreSQL.
-  </p>
-
-  <h3>Versioncloud</h3>
-  <p>
-    Aplicación web para compartir archivos con un estricto control de versiones. Su infraestructura es muy parecida a
-    uno de mis otros proyectos, <i>Unotifier</i>, pero además usa buckets AWS S3 para almacenar algunos archivos.
-    El frontend server-side-rendering está escrito en Vue y también está dockerizado.
+    Está escrito en Node.js y el sistema de despliegue es muy parecido a uno de mis otros proyectos,
+    <i>AIBelt</i>.
   </p>
 
 
@@ -303,14 +319,14 @@
 
   <h3>Lyricsfy</h3>
   <p>
-    Simple aplicación web para Spotify que te permite leer la letra de la canción que estás reproduciendo.
+    Simple aplicación web para Spotify que te permite leer a tiempo real la letra de la canción que estás reproduciendo.
   </p>
 
   <h2>Habilidades</h2>
   <ul>
-    <li>JavaScript, Node.js, Java, Bash.</li>
-    <li>Vue, Nuxt, React, Redux, HTML5, CSS3.</li>
-    <li>Docker, Firebase, Git, Linux.</li>
+    <li>TypeScript, JavaScript, Node.js, Java, Bash.</li>
+    <li>React, Next.js, Vue, Nuxt, HTML5, CSS3, TailwindCSS.</li>
+    <li>Docker, Firebase, Git, Prisma, Linux.</li>
   </ul>
   <p>También estoy familiarizado con React Native, SQL, Python, LaTeX, C, Clojure.</p>
 
