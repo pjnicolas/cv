@@ -1,0 +1,128 @@
+{
+  "name": "Pedro Javier",
+  "surname": "Nicolás Zamora",
+  "about": "Desarrollador software full-stack actualmente viviendo en España. Amante del aprendizaje autodidacta, de trabajar en equipos pequeños, y de la escalada.",
+  "changeLanguage": "View in english",
+  "contact": {
+    "title": "Contacto",
+    "email": "pedrojavier.nz@gmail.com",
+    "linkedin": "pjnicolas",
+    "github": "pjnicolas"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "list": [
+      "TypeScript + JavaScript",
+      "React + Next.js",
+      "Vue + Nuxt",
+      "HTML5 + CSS3",
+      "TailwindCSS",
+      "Node.js",
+      "Docker",
+      "Firebase",
+      "Git",
+      "Prisma.js",
+      "Ruby on Rails",
+      "Java",
+      "Linux & Bash",
+      "Metodología TDD"
+    ]
+  },
+  "achievements": {
+    "title": "Logros y cursos",
+    "list": [
+      "Ganador de la hackathon CodeCamp 2017 organizada por la Universidad de Murcia.",
+      "Alumno interno de la Universidad de Murcia, trabajando en proyectos sobre memoria transaccional en CPUs.",
+      "Curso de márketing digital impartido por Google Actívate."
+    ]
+  },
+  "jobs": [
+    {
+      "title": "Senior Fullstack Developer",
+      "companyName": "en GuruWalk",
+      "startDate": "2024",
+      "endDate": "Actualidad",
+      "location": "Valencia, España",
+      "href": "https://guruwalk.com",
+      "description": [
+        "Senior Fullstack Developer especializado en Ruby on Rails y Vue, con enfoque en Test Driven Development (TDD).",
+        "Ingeniero técnico y de producto en un equipo de alto rendimiento, responsable de tomar decisiones de diseño críticas que impactan positivamente a millones de usuarios de la plataforma.",
+        "Impulsor de nuevas iniciativas y verticales de negocio, utilizando metodologías ágiles para iterar rápidamente desde la conceptualización hasta la implementación, maximizando el valor entregado en cada solución."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "companyName": "en PcComponentes",
+      "startDate": "2021",
+      "endDate": "2023",
+      "location": "Remoto",
+      "href": "https://pccomponentes.com",
+      "description": [
+        "Principal desarrollador frontend en un equipo ágil, usando tecnologías como React, TypeScript, SCSS, y Docker",
+        "Mejoras al sistema de precios y promociones, haciendo el desarrollo completo y apoyando al diseño de aplicaciones internas y marketplace de la empresa."
+      ]
+    },
+    {
+      "title": "Fullstack Developer",
+      "companyName": "en Zapp Studio",
+      "startDate": "2020",
+      "endDate": "2021",
+      "location": "Murcia, España",
+      "href": "https://zapp-studio.com",
+      "description": [
+        "Desarrollador frontend en una consultora de aplicaciones web, especializado en tecnologías como Vue y Nuxt.",
+        "Lideré el desarrollo frontend de múltiples proyectos para clientes, mientras optimizaba simultáneamente las herramientas y librerías internas de la empresa para mejorar la eficiencia en futuros desarrollos."
+      ]
+    },
+    {
+      "title": "Co-fundador",
+      "companyName": "de Gloam",
+      "startDate": "2018",
+      "endDate": "2020",
+      "location": "Murcia, España",
+      "description": [
+        "Co-fundador de un startup desarrollando un sistema digital de promociones para pubs en España. A cargo del diseño, implementación, y mantenimiento de la tecnología y seguridad del proyecto."
+      ]
+    },
+    {
+      "title": "Freelancer",
+      "companyName": "en múltiples proyectos",
+      "startDate": "Desde 2017",
+      "endDate": "",
+      "location": "Remoto",
+      "description": [
+        "Desarrollo e implementación al completo de soluciones tecnológicas personalizadas para diversos clientes y sectores, abarcando desde el análisis de requisitos hasta la entrega final del producto."
+      ]
+    },
+    {
+      "title": "Junior Fullstack Developer",
+      "companyName": "en Metaenlace",
+      "startDate": "2016",
+      "endDate": "2017",
+      "location": "Murcia, España",
+      "description": [
+        "Desarrollador Junior usando Java y JavaScript participando en diferentes proyectos en una consultora web."
+      ]
+    },
+    {
+      "companyName": "AIBelt",
+      "title": "Proyecto personal",
+      "location": "",
+      "personalProject": true,
+      "description": [
+        "Webapp que te permite crear y compartir pequeñas herramientas multifuncionales creadas con inteligencia artificial, gracias a GPT y la API de OpenAI. Está escrita en React + Typescript, usando Next.js para el server-side-rendering, y está completamente dockerizada tanto en desarrollo como en producción.",
+        "Se despliega automáticamente en cada commit gracias a una CI en Github Actions, y está alojada en un VPS de la AWS usando nginx como un proxy inverso. Las imágenes de docker están almacenadas en la AWS ECR, y los datos en una base de datos PostgreSQL.",
+        "Entre otras tecnologías presentes en la aplicación se encuentra el uso de TRPC para la comunicación con el backend (que está escrito en Node.js), React Query para la gestión de la caché, Prisma.js para la comunicación con la base de datos, y TailwindCSS para el diseño de la interfaz. La autenticación se realiza con JWTs y cookies, y los correos electrónicos se envían con AWS SES."
+      ]
+    },
+    {
+      "companyName": "Game Jams",
+      "title": "Proyecto personal",
+      "location": "",
+      "personalProject": true,
+      "description": [
+        "He participado como programador en diferentes Game Jams, eventos organizados en internet destinados a crear un videojuego en un tiempo limitado, normalmente 3 días. Junto a guionistas e ilustradores, he programado varios de estos juegos en Unity, Game Maker, e incluso en un pequeño motor de juegos que desarrollé yo mismo en JavaScript."
+      ]
+    }
+  ]
+}
