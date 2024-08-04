@@ -1,5 +1,3 @@
-import Bullet from './Bullet'
-
 interface Props {
   companyName: string
   title: string
@@ -79,10 +77,7 @@ export default function Job({
 
         <ul className="mt-4 flex flex-col gap-2 text-neutral-800">
           {description.map((text, index) => (
-            <li key={index}>
-              <Bullet />
-              {text}
-            </li>
+            <p key={index}>{text}</p>
           ))}
         </ul>
       </div>

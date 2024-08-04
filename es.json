@@ -45,9 +45,7 @@
       "location": "Valencia, España",
       "href": "https://guruwalk.com",
       "description": [
-        "Senior Fullstack Developer especializado en Ruby on Rails y Vue, con enfoque en Test Driven Development (TDD).",
-        "Ingeniero técnico y de producto en un equipo de alto rendimiento, responsable de tomar decisiones de diseño críticas que impactan positivamente a millones de usuarios de la plataforma.",
-        "Impulsor de nuevas iniciativas y verticales de negocio, utilizando metodologías ágiles para iterar rápidamente desde la conceptualización hasta la implementación, maximizando el valor entregado en cada solución."
+        "Senior Fullstack Developer especializado en Ruby on Rails y Vue, con enfoque en Test Driven Development (TDD). Ingeniero técnico y de producto en un equipo de alto rendimiento, impulsando nuevas iniciativas y verticales de negocio usando metodologías ágiles."
       ]
     },
     {
@@ -58,8 +56,7 @@
       "location": "Remoto",
       "href": "https://pccomponentes.com",
       "description": [
-        "Principal desarrollador frontend en un equipo ágil, usando tecnologías como React, TypeScript, SCSS, y Docker",
-        "Mejoras al sistema de precios y promociones, haciendo el desarrollo completo y apoyando al diseño de aplicaciones internas y marketplace de la empresa."
+        "Principal desarrollador frontend en un equipo usando tecnologías como React, TypeScript, SCSS, y Docker. Mejorando al sistema de precios y promociones y haciendo el desarrollo completo y apoyando al diseño de aplicaciones internas y marketplace de la empresa."
       ]
     },
     {
@@ -70,18 +67,17 @@
       "location": "Murcia, España",
       "href": "https://zapp-studio.com",
       "description": [
-        "Desarrollador frontend en una consultora de aplicaciones web, especializado en tecnologías como Vue y Nuxt.",
-        "Lideré el desarrollo frontend de múltiples proyectos para clientes, mientras optimizaba simultáneamente las herramientas y librerías internas de la empresa para mejorar la eficiencia en futuros desarrollos."
+        "Desarrollador frontend especializado en tecnologías como Vue y Nuxt liderando el desarrollo frontend de múltiples proyectos para clientes, mientras optimizaba simultáneamente las herramientas y librerías internas de la empresa para mejorar la eficiencia en futuros desarrollos."
       ]
     },
     {
-      "title": "Co-fundador",
+      "title": "Cofundador",
       "companyName": "de Gloam",
       "startDate": "2018",
       "endDate": "2020",
       "location": "Murcia, España",
       "description": [
-        "Co-fundador de un startup desarrollando un sistema digital de promociones para pubs en España. A cargo del diseño, implementación, y mantenimiento de la tecnología y seguridad del proyecto."
+        "Cofundador de un startup desarrollando un sistema digital de promociones para pubs en España. A cargo del diseño, implementación, y mantenimiento de la tecnología y seguridad del proyecto."
       ]
     },
     {
