@@ -1,0 +1,13 @@
+services:
+  cv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+volumes:
+  postgres_data:
+
+networks:
+  default:
+    external: true
+    name: nginx-proxy-manager
